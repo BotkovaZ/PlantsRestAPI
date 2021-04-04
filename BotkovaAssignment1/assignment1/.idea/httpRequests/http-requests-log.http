@@ -1,0 +1,530 @@
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "somebody",
+  "password": "somebody"
+}
+
+<> 2021-01-23T093046.200.json
+
+###
+
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "somebody",
+  "email": "somebody@b.com",
+  "password": "somebody",
+  "repeatPassword": "somebody",
+  "roles": ["user"]
+}
+
+<> 2021-01-23T093018.200.html
+
+###
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "Zuzana",
+  "password": "Zuzana"
+}
+
+<> 2021-01-23T092902.200.json
+
+###
+
+GET http://localhost:3000/auth/Zuzana
+
+<> 2021-01-23T092432.404.html
+
+###
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "Zuzana",
+  "password": "Zuzana"
+}
+
+<> 2021-01-23T092355.200.json
+
+###
+
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "somebody",
+  "email": "somebody@b.com",
+  "password": "somebody",
+  "repeatPassword": "somebody",
+  "roles": ["user"]
+}
+
+<> 2021-01-23T092312.200.html
+
+###
+
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "somebody",
+  "email": "somebody@b.com",
+  "password": "somebody",
+  "repeatPassword": "somebody",
+  "roles": ["user"]
+}
+
+<> 2021-01-23T092253.200.html
+
+###
+
+GET http://localhost:3000/auth/tasks
+
+<> 2021-01-23T092133.404.html
+
+###
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "Zuzana",
+  "password": "Zuzana"
+}
+
+<> 2021-01-23T042631.200.json
+
+###
+
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "somebody",
+  "email": "somebody@b.com",
+  "password": "somebody",
+  "repeatPassword": "somebody",
+  "roles": ["user"]
+}
+
+<> 2021-01-23T042619.200.html
+
+###
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "Zuzana",
+  "password": "Zuzana"
+}
+
+<> 2021-01-23T033730.200.json
+
+###
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "Zuzana",
+  "password": "somebody"
+}
+
+<> 2021-01-23T033719.401.json
+
+###
+
+POST http://localhost:3000/bids/addBid
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Aloe",
+  "bidPrice": 25,
+  "createdBy": "Olav"
+}
+
+<> 2021-01-23T033650.200.html
+
+###
+
+GET http://localhost:3000/bids/Aloe
+
+<> 2021-01-23T033539.404.json
+
+###
+
+GET http://localhost:3000/bids/Banana
+
+<> 2021-01-23T033451.404.json
+
+###
+
+GET http://localhost:3000/bids
+
+<> 2021-01-23T033440.200.json
+
+###
+
+GET http://localhost:3000/bids/Olive
+
+<> 2021-01-23T033425.404.json
+
+###
+
+GET http://localhost:3000/bids/Olive
+
+<> 2021-01-23T033415.404.json
+
+###
+
+GET http://localhost:3000/bids/Olive
+
+<> 2021-01-23T033354.404.json
+
+###
+
+GET http://localhost:3000/bids/Olive
+
+<> 2021-01-23T033109.404.json
+
+###
+
+POST http://localhost:3000/bids/addBid
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Aloe",
+  "bidPrice": 20,
+  "createdBy": "Milan"
+}
+
+<> 2021-01-23T033041.200.html
+
+###
+
+GET http://localhost:3000/auctions/Coffee
+
+<> 2021-01-23T032653.200.json
+
+###
+
+GET http://localhost:3000/auctions/Almond
+
+###
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "Zuzana",
+  "password": "somebody"
+}
+
+<> 2021-01-23T030102.401.json
+
+###
+
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "somebody",
+  "email": "somebody@b.com",
+  "password": "somebody",
+  "repeatPassword": "somebody",
+  "roles": ["user"]
+}
+
+<> 2021-01-23T030022.200.html
+
+###
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "Zuzana",
+  "password": "Zuzana"
+}
+
+<> 2021-01-23T030006.200.json
+
+###
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+
+{
+  "username": "Zuzana",
+  "password": "Zuzana"
+}
+
+<> 2021-01-23T025956.200.json
+
+###
+
+DELETE http://localhost:3000/auctions/Fern
+
+<> 2021-01-23T024834.200.html
+
+###
+
+DELETE http://localhost:3000/auctions/Fern
+
+<> 2021-01-23T024723.200.html
+
+###
+
+POST http://localhost:3000/auctions
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Fern",
+  "description": "Fern",
+  "initialPrice": 5,
+  "endDay": "2020-03-15"
+}
+
+<> 2021-01-23T024702.201.html
+
+###
+
+GET http://localhost:3000/auctions/Pineapple
+
+<> 2021-01-23T024648.200.json
+
+###
+
+GET http://localhost:3000/auctions
+
+<> 2021-01-23T024643.200.json
+
+###
+
+GET http://localhost:3000/auctions
+
+<> 2021-01-23T024424.200.json
+
+###
+
+GET http://localhost:3000/auctions/Pineapple
+
+<> 2021-01-23T024348.200.json
+
+###
+
+GET http://localhost:3000/auctions/5
+
+###
+
+POST http://localhost:3000/auctions
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Fern",
+  "description": "Fern",
+  "initialPrice": 5,
+  "endDay": "2020-03-15"
+}
+
+<> 2021-01-23T015141.200.html
+
+###
+
+DELETE http://localhost:3000/auctions/Fern
+
+<> 2021-01-23T015130.200.html
+
+###
+
+POST http://localhost:3000/bids/addBid
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Aloe",
+  "bidPrice": 20,
+  "createdBy": "Milan"
+}
+
+<> 2021-01-23T015029.200.html
+
+###
+
+PATCH http://localhost:3000/bids/test
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Banana",
+  "bidPrice": 40,
+  "createdBy": "Gabriela"
+}
+
+<> 2021-01-23T014611.200.html
+
+###
+
+POST http://localhost:3000/bids/addBid
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "test",
+  "bidPrice": 40,
+  "createdBy": "Olav"
+}
+
+<> 2021-01-23T014539.200.html
+
+###
+
+PATCH http://localhost:3000/bids/test
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Banana",
+  "bidPrice": 35,
+  "createdBy": "Milan"
+}
+
+<> 2021-01-23T014513.200.html
+
+###
+
+GET http://localhost:3000/bids
+
+<> 2021-01-23T014459.200.json
+
+###
+
+PATCH http://localhost:3000/bids/test
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Banana",
+  "bidPrice": 35,
+  "createdBy": "Milan"
+}
+
+<> 2021-01-22T034035.404.json
+
+###
+
+PATCH http://localhost:3000/bids/test
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Banana",
+  "bidPrice": 35,
+  "createdBy": "Milan"
+}
+
+<> 2021-01-22T034012.404.json
+
+###
+
+PATCH http://localhost:3000/bids/test
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Banana",
+  "bidPrice": 35,
+  "createdBy": "Milan"
+}
+
+<> 2021-01-22T033933.404.json
+
+###
+
+POST http://localhost:3000/bids/addBid
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "test",
+  "bidPrice": 40,
+  "createdBy": "Olav"
+}
+
+<> 2021-01-22T033731.200.html
+
+###
+
+DELETE http://localhost:3000/bids/Olive
+
+<> 2021-01-22T033532.200.html
+
+###
+
+POST http://localhost:3000/bids/addBid
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Olive",
+  "bidPrice": 40,
+  "createdBy": "Gabriela"
+}
+
+<> 2021-01-22T033510.200.html
+
+###
+
+POST http://localhost:3000/bids/addBid
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Olive",
+  "bidPrice": 40,
+  "createdBy": "Gabriela"
+}
+
+<> 2021-01-22T033440.200.json
+
+###
+
+POST http://localhost:3000/bids/addBid
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Olive",
+  "bidPrice": 40,
+  "createdBy": "Gabriela"
+}
+
+<> 2021-01-22T033312.200.json
+
+###
+

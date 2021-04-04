@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="810888b4-0d5c-4720-b0c7-4c9efa811f72" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MongoDB - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MongoDB - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="auctions: schema" type="f0f64354:MongoImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nOYgOHRr2jDV80SGkB0sJj2GpK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zuzana\Desktop\assignment1\api\rest" />
+      <recent name="C:\Users\Zuzana\Desktop\assignment1\api" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/sign_in" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;somebody&quot;,&#10;  &quot;password&quot;: &quot;somebody&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/register" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;somebody&quot;,&#10;  &quot;email&quot;: &quot;somebody@b.com&quot;,&#10;  &quot;password&quot;: &quot;somebody&quot;,&#10;  &quot;repeatPassword&quot;: &quot;somebody&quot;,&#10;  &quot;roles&quot;: [&quot;user&quot;]&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/sign_in" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;Zuzana&quot;,&#10;  &quot;password&quot;: &quot;Zuzana&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auth/Zuzana" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auth/tasks" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/sign_in" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;Zuzana&quot;,&#10;  &quot;password&quot;: &quot;somebody&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/bids/addBid" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;Aloe&quot;,&#10;  &quot;bidPrice&quot;: 25,&#10;  &quot;createdBy&quot;: &quot;Olav&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/bids/Aloe" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/bids/Banana" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/bids" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/bids/Olive" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/bids/addBid" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;Aloe&quot;,&#10;  &quot;bidPrice&quot;: 20,&#10;  &quot;createdBy&quot;: &quot;Milan&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auctions/Coffee" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auctions/Almond" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/sign_in" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;username&quot;: &quot;Zuzana&quot;,&#10;  &quot;password&quot;: &quot;Zuzana&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/auctions/Fern" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auctions" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;title&quot;: &quot;Fern&quot;,&#10;  &quot;description&quot;: &quot;Fern&quot;,&#10;  &quot;initialPrice&quot;: 5,&#10;  &quot;endDay&quot;: &quot;2020-03-15&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auctions/Pineapple" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auctions" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auctions/5" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:3000/bids/test" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;Banana&quot;,&#10;  &quot;bidPrice&quot;: 40,&#10;  &quot;createdBy&quot;: &quot;Gabriela&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/bids/addBid" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;test&quot;,&#10;  &quot;bidPrice&quot;: 40,&#10;  &quot;createdBy&quot;: &quot;Olav&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:3000/bids/test" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;Banana&quot;,&#10;  &quot;bidPrice&quot;: 35,&#10;  &quot;createdBy&quot;: &quot;Milan&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/bids/Olive" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/bids/addBid" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;Olive&quot;,&#10;  &quot;bidPrice&quot;: 40,&#10;  &quot;createdBy&quot;: &quot;Gabriela&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/bids/Pineapple" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/bids/Banana" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/bids/Cactus" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/bids/addBid" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;Olive&quot;,&#10;  &quot;price&quot;: 40&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:3000/auctions/test" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;title&quot;: &quot;test&quot;,&#10;  &quot;description&quot;: &quot;test&quot;,&#10;  &quot;initialPrice&quot;: 2,&#10;  &quot;endDay&quot;: &quot;2020-04-30&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/auctions/test1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:3000/auctions/test" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;title&quot;: &quot;test1&quot;,&#10;  &quot;description&quot;: &quot;test1&quot;,&#10;  &quot;initialPrice&quot;: 2,&#10;  &quot;endDay&quot;: &quot;2020-04-30&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auctions" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;title&quot;: &quot;test&quot;,&#10;  &quot;description&quot;: &quot;test&quot;,&#10;  &quot;initialPrice&quot;: 5,&#10;  &quot;endDay&quot;: &quot;2020-03-15&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/auctions/some+plant" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000/auctions/test" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auctions/4" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/auctions/title" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/register" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;fullName&quot;: &quot;Janci&quot;,&#10;  &quot;email&quot;: &quot;janci@b.com&quot;,&#10;  &quot;hash_password&quot;: &quot;Janci&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/sign_in" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;fullName&quot;: &quot;Zuzana&quot;,&#10;  &quot;hash_password&quot;: &quot;Zuzana&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/auth/sign_in" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;fullName&quot;: &quot;Zuzana&quot;,&#10;  &quot;password&quot;: &quot;Zuzana&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/register" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;fullName&quot;: &quot;Janci&quot;,&#10;  &quot;email&quot;: &quot;janci@b.com&quot;,&#10;  &quot;hash_password&quot;: &quot;Janci&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.user#2">
+    <configuration name="bids#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/api/rest/bids.rest" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="bids#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/api/rest/bids.rest" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="user#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/api/rest/user.rest" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="user#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/api/rest/user.rest" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="user#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/api/rest/user.rest" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.user#2" />
+        <item itemvalue="HTTP Request.user#1" />
+        <item itemvalue="HTTP Request.user#3" />
+        <item itemvalue="HTTP Request.bids#3" />
+        <item itemvalue="HTTP Request.bids#2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MongoDB - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="810888b4-0d5c-4720-b0c7-4c9efa811f72" name="Default Changelist" comment="" />
+      <created>1611262714848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611262714848</updated>
+      <workItem from="1611262725247" duration="32570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="911" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611406124575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="911" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611406124575" />
+    <state x="997" y="332" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611266209639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="997" y="332" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611266209639" />
+    <state width="950" height="278" key="GridCell.Tab.0.bottom" timestamp="1611433846222">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="950" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611433846222" />
+    <state width="950" height="278" key="GridCell.Tab.0.center" timestamp="1611433846221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="950" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611433846221" />
+    <state width="950" height="278" key="GridCell.Tab.0.left" timestamp="1611433846221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="950" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611433846221" />
+    <state width="950" height="278" key="GridCell.Tab.0.right" timestamp="1611433846221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="950" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611433846221" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1611406156013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1611406156013" />
+    <state x="681" y="444" key="new project wizard" timestamp="1611327315479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="444" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611327315479" />
+  </component>
+</project>

@@ -1,0 +1,24 @@
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "somebody",
+  "email": "somebody@b.com",
+  "password": "somebody",
+  "repeatPassword": "somebody",
+  "roles": ["user"]
+}
+
+###
+
+POST http://localhost:3000/auth/sign_in
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "somebody",
+  "password": "somebody"
+}
+
+###

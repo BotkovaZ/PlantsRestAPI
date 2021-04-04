@@ -1,0 +1,1 @@
+{"errors":{"createdBy":{"name":"ValidatorError","message":"Path `createdBy` is required.","properties":{"message":"Path `createdBy` is required.","type":"required","path":"createdBy"},"kind":"required","path":"createdBy"}},"_message":"Bid validation failed","message":"Bid validation failed: createdBy: Path `createdBy` is required."}

@@ -1,0 +1,41 @@
+GET http://localhost:3000/auctions
+
+###
+
+GET http://localhost:3000/auctions/Coffee
+
+###
+
+GET http://localhost:3000/auctions/5
+
+###
+
+POST http://localhost:3000/auctions
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Fern",
+  "description": "Fern",
+  "initialPrice": 5,
+  "endDay": "2020-03-15"
+}
+
+###
+
+PATCH http://localhost:3000/auctions/test
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "test",
+  "description": "test",
+  "initialPrice": 2,
+  "endDay": "2020-04-30"
+}
+
+###
+
+DELETE http://localhost:3000/auctions/test
+
+###
